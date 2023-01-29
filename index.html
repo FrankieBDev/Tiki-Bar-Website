@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>Frankie's Tiki Bar Homepage</title>
+    </head>
+<body>
+
+<!-- Nav Bar -->
+<ul id= "navbar" class="nav justify-content-center">
+    <!-- make 'Frankie's' a logo/icon home page link-->
+  <li class="nav-item">
+    <a class="nav-link" href="index.html">Frankie's</a>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="about.html" role="button" aria-expanded="false">About</a>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#infoBoxHours">Opening Hours</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="history.html">History</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
+    </ul>
+  <li class="nav-item">
+  <a class="nav-link" href="cocktails.html">Cocktails</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="food.html">Food</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="venueHire.html">Venue Hire</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="contact.html">Contact</a>
+  </li>
+    <li class="nav-item">
+    <a class="nav-link" href="#infoBoxBook"> Book Now!</li>
+  </ul>
+
+<!-- Main Logo -->
+<div id="mainLogo" class="image">
+<img src="imgs\neon palms.png" alt="Frankie's Tiki Bar Logo">
+</div>
+
+
+<!-- Picture Carosel -->
+<div id="img-car">
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="15000">
+      <img src="/imgs/the-travel-nook-2FoqQ0EPwLg-unsplash.jpg" class="d-block w-100" alt="Beach scene with tiki umbrella and cocktail">
+    </div>
+    <div class="carousel-item">
+      <img src="/imgs/photo-1523371054106-bbf80586c38c.jpg" class="d-block w-100" alt="Yellow cocktail with dehydrated lime and rosemary">
+    </div>
+      <div class="carousel-item">
+      <img src="/imgs/mika-matin-bIG6LAWRA68-unsplash.jpg" class="d-block w-100" alt="Red cocktail held by hand with red painted nails in front of palm background">
+    </div>
+    <div class="carousel-item">
+      <img src="/imgs/melissa-walker-horn-NkwNp3ho-Qw-unsplash (1).jpg" class="d-block w-100" alt="Burger with cheese oozing out and fries and ketchup on a wooden board.">
+    </div>
+    <div class="carousel-item">
+      <img src="/imgs/mae-mu-YNMjGIPgD_c-unsplash.jpg" class="d-block w-100" alt="Water poured into decorative glass with lime and mint.">
+    </div>
+    <div class="carousel-item">
+      <img src="/imgs/matthew-brodeur-DH_u2aV3nGM-unsplash.jpg" class="d-block w-100" alt="Palm tree beach scene">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  </button>
+</div>
+</div>
+
+
+
+<!-- Info Boxes -->
+<div class="info-container">
+  <!-- History box -->
+  <div id="infoBoxHistory" class="InfoBox">
+    <h2 class="infoBoxTitle">History</h3>
+    <p>Lorem ipsum dolor sit amet consectetu</p> 
+  <p href="history.html">More...</p>
+  </div>
+
+  <!-- Opening Hours Box -->
+  <a id="infoBoxHours"> <div id="infoBoxHours" class="InfoBox">
+    <section class="openinghours">
+      <div class="openinghourscontent section">
+          <div class="header">
+               <h2 id= infoBoxTitle> Opening Hours </h2>
+             </div>
+          <table class="opening-hours-table">
+              <tr id="Monday" itemprop="openingHours" title="Open Monday at 2pm to 11pm">
+                  <td>Monday</td>
+                  <td class="opens">14:00</td>
+                  <td>-</td>
+                  <td class="closes">23:00</td>
+              </tr>
+              <tr id="Tuesday" itemprop="openingHours" title="Open Tuesday at 2pm to 11pm">
+                  <td>Tuesday</td>
+                  <td class="opens">14:00</td>
+                  <td>-</td>
+                  <td class="closes">23:00</td>
+              </tr>
+              <tr id="Wednesday" itemprop="openingHours" title="Open Wednesday at 10am to 11pm">
+                  <td>Wednesday</td>
+                  <td class="opens">10:00</td>
+                  <td>-</td>
+                  <td class="closes">23:00</td>
+              </tr>
+              <tr id="Thursday" itemprop="openingHours" title="Open Thursday at 2pm to 12am">
+                  <td>Thursday</td>
+                  <td class="opens">14:00</td>
+                  <td>-</td>
+                  <td class="closes">00:00</td>
+              </tr>
+              <tr id="Friday" itemprop="openingHours" title="Open Friday at 2pm to 1amm">
+                  <td>Friday</td>
+                  <td class="opens">14:00</td>
+                  <td>-</td>
+                  <td class="closes">01:00</td>
+              </tr>
+              <tr id="Saturday" itemprop="openingHours" title="Open Saturday at 10am to 2am">
+                  <td>Saturday</td>
+                  <td class="opens">10:00</td>
+                  <td>-</td>
+                  <td class="closes">02:00</td>
+              </tr>
+              <tr id="Sunday" itemprop="openingHours" title="Open Sunday at 11am to 10pm">
+                  <td>Sunday</td>
+                  <td class="opens">11:00</td>
+                  <td>-</td>
+                  <td class="closes">22:00</td>
+              </tr>
+          </table></a>
+        </div>
+  </section>
+
+  <!-- Book Now Box -->
+  </div>
+  <a id="infoBoxBook"><div id="infoBoxBook" class="InfoBox">
+    <h2 class="infoBoxTitle">Book Now</h2> </a>
+    <button style="cursor: pointer;" title="Make an Apointment Online" data-appointlet="u387">Make an Apointment Online</button>
+    <script>
+      (function(e, t, n, r) {
+          if (e) return;
+          t._appt = true;
+          var i = n.createElement(r),
+              s = n.getElementsByTagName(r)[0];
+          i.async = true;
+          i.src = '//dje0x8zlxc38k.cloudfront.net/loaders/s-min.js';
+          s.parentNode.insertBefore(i, s)
+      })(window._appt, window, document, "script")
+  </script>
+  </div> 
+</div>
+</div>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="container">
+    <ul class="nav justify-content-center">
+    <li class="foot-item">
+    <a href="about.html"><h6>About</h6></a>
+    </li>
+    <li class="foot-item">
+   <a href="https://goo.gl/maps/fhy6GyC8QypfxpDK7"><h6>Find Us</h6></a>
+  </li>
+   <li class="foot-item">
+   <a href="contact.html"><h6>Contact Us</h6></a>
+  </li>
+   <li class="foot-item">
+   <a href="#infoBoxHours"><h6>Opening Hours</h6></a>
+  </li>
+   <li class="foot-item">
+   <a href="https://www.totaljobs.com/"><h6>Careers</h6></a>
+  </li>
+   <li class="foot-item">
+   <a href="#infoBoxBook"><h6>Book Now!</h6></a>
+  </li>
+  </ul>
+
+   
+   
+  </div>
+</footer>
+  
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script> src="script.js"</script>
+</html>
+
+
+
+
